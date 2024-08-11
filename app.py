@@ -48,9 +48,9 @@ def vector_embedding():
 prompt1=st.text_input("Enter Your Question From Documents")
 
 
-if st.button("Documents Embedding"):
+if st.button("Upload Documents"):
     vector_embedding()
-    st.write("Vector Store DB Is Ready")
+    st.write("Vector Store DB Is Ready to be Queried")
 
 import time
 
